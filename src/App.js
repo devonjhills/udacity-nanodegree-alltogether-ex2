@@ -22,8 +22,8 @@ class App extends Component {
 
   handleAddMsg = (username, text) => {
     const newMessage = {
-      ["username"]: username,
-      ["text"]: text,
+      "username": username,
+      "text": text,
     };
     this.setState((prevState) => ({
       messages: [...prevState.messages, newMessage],
